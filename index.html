@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelFreak - Adventure Like a Pro</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./Resources/favicon.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand text-light" href="#"><img src="./Resources/navbar.jpg" alt="brand"
+                        width="100px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="#">HOME</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#about">ABOUT</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                TRAVEL GEAR
+                            </a>
+                            <ul class="dropdown-menu bg-dark">
+                                <li><a class="dropdown-item text-light" href="#">Best Travel Gifts</a></li>
+                                <li><a class="dropdown-item text-light" href="#">Best Luggage Brands</a></li>
+                                <li><a class="dropdown-item text-light" href="#">Best Travel Backpacks</a></li>
+                                <li><a class="dropdown-item text-light" href="#">Best Tent Brands</a></li>
+                                <li><a class="dropdown-item text-light" href="#">Best Sleeping Bag Brands</a></li>
+                                <li><a class="dropdown-item text-light" href="#">Best Mirrorless Cameras</a></li>
+                                <li><a class="dropdown-item text-light" href="#">Best Travel Clothing Brands</a></li>
+                                <li><a class="dropdown-item text-light" href="#">What to Wear Hiking</a></li>
+                                <li><a class="dropdown-item text-light" href="#">Travel Water Bottles</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                TRAVEL TIPS
+                            </a>
+                            <ul class="dropdown-menu bg-dark">
+                                <li><a class="dropdown-item text-light" href="#">Travel Booking Websites</a></li>
+                                <li><a class="dropdown-item text-light" href="#">Best Travel Insurance Companies</a></li>
+                                <li><a class="dropdown-item text-light" href="#">Car Camping</a></li>
+                                <li><a class="dropdown-item text-light" href="#">RVs & Campervans</a></li>
+                                <li><a class="dropdown-item text-light" href="#">Work Abroad</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">INSPIRATION</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                DESTINATIONS
+                            </a>
+                            <ul class="dropdown-menu bg-dark">
+                                <li><a class="dropdown-item text-light" href="#">Asia</a></li>
+                                <li><a class="dropdown-item text-light" href="#">Australia</a></li>
+                                <li><a class="dropdown-item text-light" href="#">Europe</a></li>
+                                <li><a class="dropdown-item text-light" href="#">The Middle East</a></li>
+                                <li><a class="dropdown-item text-light" href="#">New Zealand</a></li>
+                                <li><a class="dropdown-item text-light" href="#">North America</a></li>
+                                <li><a class="dropdown-item text-light" href="#">South America</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home Blogs -->
+    <div id="home">
+        <div class="contianer d-flex">
+            <!-- SECTION 1 -->
+            <div class="home_div">
+                <div class="big_layout">
+                    <img src="./Resources/big_layout1.webp" alt="">
+                    <div class="home_text">
+                        <a href="">
+                            <p>LUGGAGE</p>
+                        </a>
+                        <a href="">
+                            <h3>20 Best Luggage Brands of 2024</h3>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="d-flex">
+                    <div class="small_layout mt-3 me-2">
+                        <img src="./Resources/sm_layout1.webp" alt="">
+                        <div class="home_text2">
+                            <a href="">
+                                <p>LUGGAGE</p>
+                            </a>
+                            <a href="">
+                                <h3>The Best Checked Luggage of 2024</h3>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="small_layout mt-3 ms-2">
+                        <img src="./Resources/sm_layout2.webp" alt="">
+                        <div class="home_text2">
+                            <a href="">
+                                <p>BACKPACKS</p>
+                            </a>
+                            <a href="">
+                                <h3>The Best Carry-On Backpacks of 2024</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SECTION 2 -->
+            <div class="home_div">
+                <div class="d-flex">
+                    <div class="small_layout mb-3 me-2">
+                        <img src="./Resources/sm_layout3.webp" alt="">
+                        <div class="home_text2">
+                            <a href="">
+                                <p>TRAVEL TIPS</p>
+                            </a>
+                            <a href="">
+                                <h3>17 Best Hotel Booking Sites of 2024</h3>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="small_layout mb-3 ms-2">
+                        <img src="./Resources/sm_layout4.webp" alt="">
+                        <div class="home_text2">
+                            <a href="">
+                                <p>LUGGAGE</p>
+                            </a>
+                            <a href="">
+                                <h3>Monos Luggage Review: Hype or Worth it in 2024?</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="big_layout">
+                    <img src="./Resources/big_layout2.webp" alt="">
+                    <div class="home_text">
+                        <a href="">
+                            <p>LUGGAGE</p>
+                        </a>
+                        <a href="">
+                            <h3>The Best Lightweight Luggage for Travel in 2024</h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Featured -->
+    <div id="featured">
+        <div class="container text-center mt-3 mb-5">
+            <img src="./Resources/featured.webp" alt="featured" width="60%">
+        </div>
+    </div>
+
+    <!-- Subscribe Banner -->
+    <div id="subscribe_banner">
+        <div class="content_container d-flex">
+            <img src="./Resources/banner_img.jpg" alt="">
+
+            <div class="sub_text text-center">
+                <div class="main">
+                    <h1>Adventure</h1>
+                </div>
+                <div class="sub">
+                    <h3>LIKE A PRO</h3>
+                </div>
+                <p class="mt-4 mb-5">Travel smarter, adventure better. Join our community of travelers and get our gear
+                    guides, travel tips and personal recommendations, entirely free.</p>
+                <button type="button" class="btn">SUBSCRIBE TODAY <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="custom-shape-divider-bottom-1707051991">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                    preserveAspectRatio="none">
+                    <path
+                        d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+                        opacity=".25" class="shape-fill"></path>
+                    <path
+                        d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+                        opacity=".5" class="shape-fill"></path>
+                    <path
+                        d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+                        class="shape-fill"></path>
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <!-- Blog Sec 1 -->
+    <div id="blog_1">
+        <!-- Heading -->
+        <div class="container text-center">
+            <h1>Start Your Adventure</h1>
+        </div>
+        <!-- Section 1 -->
+        <div class="container-fluid d-flex justify-content-center">
+            <div class="blog_1_holder col-3 m-3">
+                <div class="blog_1_img">
+                    <img src="./Resources/blog1img1.webp" alt="">
+                </div>
+                <div class="blog_1_text">
+                    <a href="">
+                        <h5 class="mt-4">The Best Travel Gear and Accessories of 2024</h5>
+                    </a>
+                </div>
+            </div>
+
+            <div class="blog_1_holder col-3 m-3">
+                <div class="blog_1_img">
+                    <img src="./Resources/blog1img2.webp" alt="">
+                </div>
+                <div class="blog_1_text">
+                    <a href="">
+                        <h5 class="mt-4">17 Best Travel Sites to Use in 2024</h5>
+                    </a>
+                </div>
+            </div>
+
+            <div class="blog_1_holder col-3 m-3">
+                <div class="blog_1_img">
+                    <img src="./Resources/blog1img3.webp" alt="">
+                </div>
+                <div class="blog_1_text">
+                    <a href="">
+                        <h5 class="mt-4">15 Best Travel Backpacks of 2024</h5>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 2 -->
+        <div class="container-fluid d-flex justify-content-center">
+            <div class="blog_1_holder col-3 m-3">
+                <div class="blog_1_img">
+                    <img src="./Resources/blog1img4.webp" alt="">
+                </div>
+                <div class="blog_1_text">
+                    <a href="">
+                        <h5 class="mt-4">65 Best Travel Tips I’ve Learned After 10 Years of Traveling</h5>
+                    </a>
+                </div>
+            </div>
+
+            <div class="blog_1_holder col-3 m-3">
+                <div class="blog_1_img">
+                    <img src="./Resources/blog1img5.webp" alt="">
+                </div>
+                <div class="blog_1_text">
+                    <a href="">
+                        <h5 class="mt-4">15 Best Campervan Rental Companies for Your US Road Trip</h5>
+                    </a>
+                </div>
+            </div>
+
+            <div class="blog_1_holder col-3 m-3">
+                <div class="blog_1_img">
+                    <img src="./Resources/blog1img6.webp" alt="">
+                </div>
+                <div class="blog_1_text">
+                    <a href="">
+                        <h5 class="mt-4">15 Best Travel Insurance Companies of 2024</h5>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Blog Sec 2 -->
+    <div id="blog_2" class="bg-body-secondary">
+        <!-- Heading -->
+        <div class="text-center">
+            <h1>Latest Reading</h1>
+        </div>
+
+        <!-- Section 1 -->
+        <div class="container-fluid  d-flex justify-content-center">
+            <div class="blog_2_holder  m-3">
+                <div class="blog_2_img">
+                    <img src="./Resources/blog2img1.webp" alt="">
+                </div>
+                <div class="blog_2_text">
+                    <a href="">
+                        <h5 class="mt-4">US Airline Delay Statistics (2022-2023)</h5>
+                    </a>
+                    <p>DECEMBER 13, 2023</p>
+                </div>
+            </div>
+
+            <div class="blog_2_holder m-3">
+                <div class="blog_2_img">
+                    <img src="./Resources/blog2img2.webp" alt="">
+                </div>
+                <div class="blog_2_text">
+                    <a href="">
+                        <h5 class="mt-4">What is Travel Insurance?</h5>
+                    </a>
+                    <p>DECEMBER 11, 2023</p>
+                </div>
+            </div>
+
+            <div class="blog_2_holder m-3">
+                <div class="blog_2_img">
+                    <img src="./Resources/blog2img3.webp" alt="">
+                </div>
+                <div class="blog_2_text">
+                    <a href="">
+                        <h5 class="mt-4">35 Best Gifts for Hikers and Campers: Unique Hiking Gift Ideas for 2024DECEMBER
+                            4, 2023</h5>
+                    </a>
+                    <p>DECEMBER 4, 2023</p>
+                </div>
+            </div>
+
+            <div class="blog_2_holder m-3">
+                <div class="blog_2_img">
+                    <img src="./Resources/blog2img4.webp" alt="">
+                </div>
+                <div class="blog_2_text">
+                    <a href="">
+                        <h5 class="mt-4">The Best Black Friday Luggage Deals of 2023</h5>
+                    </a>
+                    <p>NOVEMBER 22, 2023</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 2 -->
+        <div class="container-fluid  d-flex justify-content-center">
+            <div class="blog_2_holder  m-3">
+                <div class="blog_2_img">
+                    <img src="./Resources/blog2img5.webp" alt="">
+                </div>
+                <div class="blog_2_text">
+                    <a href="">
+                        <h5 class="mt-4">15 Best Packing Cubes for Travel in 2024</h5>
+                    </a>
+                    <p>OCTOBER 26, 2023</p>
+                </div>
+            </div>
+
+            <div class="blog_2_holder m-3">
+                <div class="blog_2_img">
+                    <img src="./Resources/blog2img6.webp" alt="">
+                </div>
+                <div class="blog_2_text">
+                    <a href="">
+                        <h5 class="mt-4">10 Best Ski Bags of 2024</h5>
+                    </a>
+                    <p>OCTOBER 26, 2023</p>
+                </div>
+            </div>
+
+            <div class="blog_2_holder m-3">
+                <div class="blog_2_img">
+                    <img src="./Resources/blog2img7.webp" alt="">
+                </div>
+                <div class="blog_2_text">
+                    <a href="">
+                        <h5 class="mt-4">20 Best Camping Chairs of 2024</h5>
+                    </a>
+                    <p>OCTOBER 26, 2023</p>
+                </div>
+            </div>
+
+            <div class="blog_2_holder m-3">
+                <div class="blog_2_img">
+                    <img src="./Resources/blog2img8.webp" alt="">
+                </div>
+                <div class="blog_2_text">
+                    <a href="">
+                        <h5 class="mt-4">15 Best Tour Companies of 2024</h5>
+                    </a>
+                    <p>OCTOBER 26, 2023</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Blog Sec 3 -->
+    <div id="blog_3">
+        <!-- Heading -->
+        <div class="text-center">
+            <h1>Travle Tips</h1>
+        </div>
+
+        <!-- Section 1 -->
+        <div class="container-fluid  d-flex justify-content-center">
+            <div class="blog_3_holder  m-3">
+                <div class="blog_3_img">
+                    <img src="./Resources/blog3img1.webp" alt="">
+                </div>
+                <div class="blog_3_text">
+                    <a href="">
+                        <h5 class="mt-4">Camping for Beginners: Tips & Advice for Your First Camping Trip</h5>
+                    </a>
+                    <p>Ready to enjoy the great outdoors and sleep out under a starry sky? Here’s everything you need to
+                        know about camping for beginners.</p>
+                </div>
+            </div>
+
+            <div class="blog_3_holder m-3">
+                <div class="blog_3_img">
+                    <img src="./Resources/blog3img2.webp" alt="">
+                </div>
+                <div class="blog_3_text">
+                    <a href="">
+                        <h5 class="mt-4">17 Best Hotel Booking Sites of 2024</h5>
+                    </a>
+                    <p>Looking for the best hotel booking websites for your next trip? This list of 17 should help you
+                        find the perfect hotel, no matter where in the world you’re going.</p>
+                </div>
+            </div>
+
+            <div class="blog_3_holder m-3">
+                <div class="blog_3_img">
+                    <img src="./Resources/blog3img3.webp" alt="">
+                </div>
+                <div class="blog_3_text">
+                    <a href="">
+                        <h5 class="mt-4">Car Camping 101: How to Sleep In Your Car (Safety Tips, What to Pack & More)
+                        </h5>
+                    </a>
+                    <p>You’ve seen the photos. Car camping is a popular way to explore the outdoors, but how do you get
+                        started?</p>
+                </div>
+            </div>
+
+            <div class="blog_3_holder m-3">
+                <div class="blog_3_img">
+                    <img src="./Resources/blog3img4.webp" alt="">
+                </div>
+                <div class="blog_3_text">
+                    <a href="">
+                        <h5 class="mt-4">Airbnb vs. Hotels: Which One is Better (and Cheaper)?</h5>
+                    </a>
+                    <p>When it comes to the grand Airbnb vs. hotel debate, you really have to consider what you value.
+                        Let’s figure out which one is better (and which one is cheaper).</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 2 -->
+        <div class="container-fluid  d-flex justify-content-center">
+            <div class="blog_3_holder  m-3">
+                <div class="blog_3_img">
+                    <img src="./Resources/blog3img5.webp" alt="">
+                </div>
+                <div class="blog_3_text">
+                    <a href="">
+                        <h5 class="mt-4">31 Travel Safety Tips Everyone Should Know</h5>
+                    </a>
+                    <p>These travel safety tips will help you plan ahead, stay safe on the road, and give you peace of
+                        mind as you embark on your next adventure!</p>
+                </div>
+            </div>
+
+            <div class="blog_3_holder m-3">
+                <div class="blog_3_img">
+                    <img src="./Resources/blog3img6.webp" alt="">
+                </div>
+                <div class="blog_3_text">
+                    <a href="">
+                        <h5 class="mt-4">How I Booked an $8,967 First Class Airplane Ticket for $5.60</h5>
+                    </a>
+                    <p>I flew to my best friend’s wedding, 30 hours away, on the other side of the world, in first
+                        class. What’s more? The ticket only cost $5.60.</p>
+                </div>
+            </div>
+
+            <div class="blog_3_holder m-3">
+                <div class="blog_3_img">
+                    <img src="./Resources/blog3img7.webp" alt="">
+                </div>
+                <div class="blog_3_text">
+                    <a href="">
+                        <h5 class="mt-4">How to Rent an RV: What You Need to Know Before Renting a Campervan
+                        </h5>
+                    </a>
+                    <p>Can you picture yourself cruising down Highway 1 or along Nevada’s “Loneliest Road” with all of
+                        your buddies? Here’s how to rent an RV to make that happen.</p>
+                </div>
+            </div>
+
+            <div class="blog_3_holder m-3">
+                <div class="blog_3_img">
+                    <img src="./Resources/blog3img8.webp" alt="">
+                </div>
+                <div class="blog_3_text">
+                    <a href="">
+                        <h5 class="mt-4">20 Airbnb Alternatives You Should Know About</h5>
+                    </a>
+                    <p>When searching for sites like Airbnb, it’s hard to know which sites to trust. These Airbnb
+                        alternatives will help you find the perfect vacation rental on your next trip!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Blog Sec 4 -->
+    <div id="blog_3" class="bg-body-secondary">
+        <!-- Heading -->
+        <div class="text-center">
+            <h1>Destination Guides</h1>
+        </div>
+
+        <!-- Section 1 -->
+        <div class="container-fluid  d-flex justify-content-center">
+            <div class="blog_3_holder  m-3">
+                <div class="blog_3_img">
+                    <img src="./Resources/blog4img1.webp" alt="">
+                </div>
+                <div class="blog_3_text">
+                    <a href="">
+                        <h5 class="mt-4">7-Day Utah Road Trip National Parks Itinerary: Visiting the Mighty 5</h5>
+                    </a>
+                    <p>A Utah road trip through the state’s most iconic National Parks is a quintessential American
+                        experience. This itinerary helps you make the most of your trip.</p>
+                </div>
+            </div>
+
+            <div class="blog_3_holder m-3">
+                <div class="blog_3_img">
+                    <img src="./Resources/blog4img2.webp" alt="">
+                </div>
+                <div class="blog_3_text">
+                    <a href="">
+                        <h5 class="mt-4">28 Best National Park Road Trips in the US</h5>
+                    </a>
+                    <p>Every US national park has something special, from desert landscapes to snow-capped mountains to
+                        rainforests and more. Here, I’ve narrowed down the best of the best for your US national park
+                        road trip.</p>
+                </div>
+            </div>
+
+            <div class="blog_3_holder m-3">
+                <div class="blog_3_img">
+                    <img src="./Resources/blog4img3.webp" alt="">
+                </div>
+                <div class="blog_3_text">
+                    <a href="">
+                        <h5 class="mt-4">12 Best Joshua Tree Hikes According to a Backpacking Guide
+                        </h5>
+                    </a>
+                    <p>Looking for the best hikes in Joshua Tree National Park? Who better to ask than an official
+                        hiking tour guide?</p>
+                </div>
+            </div>
+
+            <div class="blog_3_holder m-3">
+                <div class="blog_3_img">
+                    <img src="./Resources/blog4img4.webp" alt="">
+                </div>
+                <div class="blog_3_text">
+                    <a href="">
+                        <h5 class="mt-4">15 Best Hikes on Oahu, Hawaii</h5>
+                    </a>
+                    <p>Soak in the stunning views of Oahu from one of its best hiking trails. These Oahu hiking trails
+                        will get your adrenaline pumping while offering some of the best views of the island.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 2 -->
+        <div class="container-fluid  d-flex justify-content-center">
+            <div class="blog_3_holder  m-3">
+                <div class="blog_3_img">
+                    <img src="./Resources/blog4img5.webp" alt="">
+                </div>
+                <div class="blog_3_text">
+                    <a href="">
+                        <h5 class="mt-4">19 Best Adventure Vacations in the USA</h5>
+                    </a>
+                    <p>The U.S. is chock full of forests, mountains, and glaciers. Seek your thrills in this vastly
+                        diverse country, where limited time and money are non-issues. Your next adventure vacation in
+                        the USA awaits…</p>
+                </div>
+            </div>
+
+            <div class="blog_3_holder m-3">
+                <div class="blog_3_img">
+                    <img src="./Resources/blog4img6.webp" alt="">
+                </div>
+                <div class="blog_3_text">
+                    <a href="">
+                        <h5 class="mt-4">16 Epic Stops for Your California Road Trip</h5>
+                    </a>
+                    <p>Convertible, check. Epic tunes, check. Camera, check. A list of 16 epic stops for a legendary
+                        California road trip itinerary—CHECK!</p>
+                </div>
+            </div>
+
+            <div class="blog_3_holder m-3">
+                <div class="blog_3_img">
+                    <img src="./Resources/blog4img7.webp" alt="">
+                </div>
+                <div class="blog_3_text">
+                    <a href="">
+                        <h5 class="mt-4">10 of the Best Hikes in Asheville, North Carolina
+                        </h5>
+                    </a>
+                    <p>Asheville is home to some of the oldest and most biodiverse ranges in the world. Located
+                        alongside the Blue Ridge Mountains and the Appalachian Trail, Asheville is surrounded by some of
+                        the best hiking in</p>
+                </div>
+            </div>
+
+            <div class="blog_3_holder m-3">
+                <div class="blog_3_img">
+                    <img src="./Resources/blog4img8.webp" alt="">
+                </div>
+                <div class="blog_3_text">
+                    <a href="">
+                        <h5 class="mt-4">5 Hiking Trails in Tasmania You Don’t Want to Miss</h5>
+                    </a>
+                    <p>One of the most rugged, least explored and least visited states in Australia, Tasmania is a
+                        paradise for outdoor enthusiasts. Located ten hours by ferry from Melbourne, this is Australia’s
+                        only island state. As one</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Blog Sec 5 -->
+    <div id="blog_3">
+        <!-- Heading -->
+        <div class="text-center">
+            <h1>Travle Gear</h1>
+        </div>
+
+        <!-- Section 1 -->
+        <div class="container-fluid  d-flex justify-content-center">
+            <div class="blog_3_holder  m-3">
+                <div class="blog_3_img">
+                    <img src="./Resources/blog5img1.webp" alt="">
+                </div>
+                <div class="blog_3_text">
+                    <a href="">
+                        <h5 class="mt-4">20 Best Luggage Brands of 2024</h5>
+                    </a>
+                    <p>Ah, luggage. Unless you’re a very seasoned traveler, the sheer number of luggage brands, each
+                        having their own extensive and seemingly never-ending catalog, can be extremely overwhelming.
+                        Even the most well-traveled amongst us can’t keep</p>
+                </div>
+            </div>
+
+            <div class="blog_3_holder m-3">
+                <div class="blog_3_img">
+                    <img src="./Resources/blog5img2.webp" alt="">
+                </div>
+                <div class="blog_3_text">
+                    <a href="">
+                        <h5 class="mt-4">17 Best Hiking Backpacks of 2024</h5>
+                    </a>
+                    <p>Are you looking for a new hiking backpack? After reviewing dozens, these are my top picks for the
+                        best hiking backpacks on the market today.</p>
+                </div>
+            </div>
+
+            <div class="blog_3_holder m-3">
+                <div class="blog_3_img">
+                    <img src="./Resources/blog5img3.webp" alt="">
+                </div>
+                <div class="blog_3_text">
+                    <a href="">
+                        <h5 class="mt-4">10 Best Travel Shoes for Men & Women
+                        </h5>
+                    </a>
+                    <p>Looking for the best travel shoes that are lightweight, stylish, and comfortable? Here are ten
+                        awesome picks that I’ve tested around the globe.</p>
+                </div>
+            </div>
+
+            <div class="blog_3_holder m-3">
+                <div class="blog_3_img">
+                    <img src="./Resources/blog5img4.webp" alt="">
+                </div>
+                <div class="blog_3_text">
+                    <a href="">
+                        <h5 class="mt-4">10 Best Mirrorless Cameras for Travel in 2024</h5>
+                    </a>
+                    <p>Are you tired of carrying around a bulky camera on every trip? Upgrade the way you take photos by
+                        switching to one of the best mirrorless cameras for travel!</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 2 -->
+        <div class="container-fluid  d-flex justify-content-center">
+            <div class="blog_3_holder  m-3">
+                <div class="blog_3_img">
+                    <img src="./Resources/blog5img5.webp" alt="">
+                </div>
+                <div class="blog_3_text">
+                    <a href="">
+                        <h5 class="mt-4">17 Best Travel Clothing Brands for Men and Women</h5>
+                    </a>
+                    <p>With so many travel clothing brands out there, we understand that you don’t want to waste your
+                        time (or money) on the wrong gear. This list will help you make the right decisions!</p>
+                </div>
+            </div>
+
+            <div class="blog_3_holder m-3">
+                <div class="blog_3_img">
+                    <img src="./Resources/blog5img6.webp" alt="">
+                </div>
+                <div class="blog_3_text">
+                    <a href="">
+                        <h5 class="mt-4">The Best Carry-On Backpacks of 2024</h5>
+                    </a>
+                    <p>Wanting to try one bag travel and in the market for a new carry-on backpack? We’ve personally
+                        battle-tested each bag on this list to bring you the best carry-on backpacks of 2023.</p>
+                </div>
+            </div>
+
+            <div class="blog_3_holder m-3">
+                <div class="blog_3_img">
+                    <img src="./Resources/blog5img7.webp" alt="">
+                </div>
+                <div class="blog_3_text">
+                    <a href="">
+                        <h5 class="mt-4">15 Best Hiking Camera Backpacks of 2024
+                        </h5>
+                    </a>
+                    <p>On the hunt for the best camera backpack for hiking to snap some panoramic shots of those
+                        mountain views? We’ve got you covered.</p>
+                </div>
+            </div>
+
+            <div class="blog_3_holder m-3">
+                <div class="blog_3_img">
+                    <img src="./Resources/blog5img8.webp" alt="">
+                </div>
+                <div class="blog_3_text">
+                    <a href="">
+                        <h5 class="mt-4">10 Best Backpacking Tents of 2024</h5>
+                    </a>
+                    <p>From the ultra-lightweight minimalist designs to the beefier, fortress-in-a-bag tents, these are
+                        the ten best backpacking tents for every adventure.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Blog Banner -->
+    <div id="b_banner" class="bg-body-secondary pt-4">
+        <div class="container d-flex justify-content-evenly">
+            <div class="bBanner_content d-flex">
+                <img src="./Resources/bbanner1.webp" alt="bbanner">
+                <a href="">
+                    <h6 class="fw-bold ms-3 mt-1">20 Airbnb Alternatives You Should Know About</h6>
+                </a>
+            </div>
+
+            <div class="bBanner_content d-flex">
+                <img src="./Resources/bbanner2.webp" alt="bbanner">
+                <a href="">
+                    <h6 class="fw-bold ms-3 mt-1">How to Stay in Europe for Longer Than 90 Days (Legally & Illegally!)
+                    </h6>
+                </a>
+            </div>
+
+            <div class="bBanner_content d-flex">
+                <img src="./Resources/bbanner3.webp" alt="bbanner">
+                <a href="">
+                    <h6 class="fw-bold ms-3 mt-1">31 Travel Safety Tips Everyone Should Know</h6>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- About -->
+    <div id="about">
+        <div class="container d-flex">
+            <div class="abt_text text-center">
+                <h1>About Me</h1>
+                <h2>Jeremy Scott Foster</h2>
+                <p>
+                    When I first left home with a one-way ticket to the other side of the world, I didn’t have a clue
+                    what I
+                    was doing (or even, really, where I was going). But that was the point. I didn’t want to know. All I
+                    knew was that there was so much I didn’t know, and I set out on a quest to broaden my perspective as
+                    well as my comfort zone.
+                </p>
+                <p>
+                    And I did. Experiencing the world changed me, and in recognizing that travel is a powerful platform
+                    for
+                    personal growth, I made it my personal mission to help others—people like you—recognize just how
+                    accessible travel really is. That’s why I started this adventure travel blog.
+                </p>
+                <p>
+                    Even if you’re lacking time or money, there are countless ways to embark on an adventure of your
+                    own.
+                    And I’m here to guide you through it.
+                </p>
+                <p>
+                    Just click the button below to learn more and start an extraordinary journey of your own!
+                </p>
+
+                <button type="button" class="btn mt-3">LEARN MORE <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <img src="./Resources/about1.webp" alt="about">
+        </div>
+    </div>
+
+    <!-- Sign Up -->
+    <div id="sign_up">
+        <div class="container d-flex">
+            <div class="signup_text col-6">
+                <h3>LET'S MOVE THIS ADVENTURE TO YOUR INBOX</h3>
+                <p>Upgrade your adventure today, and sign up to receive the best gear, tips and tricks we’ve got,
+                    straight to your inbox, totally free.</p>
+            </div>
+            <div class="signup_form">
+                <form>
+                    <input type="text" placeholder="FIRST NAME:">
+                    <input type="email" placeholder="EMAIL:">
+                    <button type="button" class="btn rounded-pill">LETS ROLL<i
+                            class="fa-solid fa-arrow-right"></i></button>
+                </form>
+                <img src="./Resources/signup.png" alt="signup" width="600px">
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-dark">
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start">
+                <!-- Grid row -->
+                <div class="row">
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 mt-5  text-light">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Categories
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Backpack Reviews</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Luggage Reviews</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Gear Guides</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Destinations</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">RVs & Campervans</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Travel Insurance</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Working Abroad</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 mt-5 text-light">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            About
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">About</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Advertise</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Contact</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Press</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Privacy Policy</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Backpack Rating System</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 mt-5 text-light">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">Connect with us</h6>
+                        <div class="d-flex">
+                            <div class="me-5">
+                                <p><i class="fa-brands fa-instagram"></i> Instagram</p>
+                                <p><i class="fa-brands fa-facebook"></i>Facebook</p>
+                                <p><i class="fa-brands fa-twitter"></i> Twitter</p>
+                                <p><i class="fa-brands fa-pinterest"></i> Pinterest</p>
+                            </div>
+                            <div class="ms-5">
+                                <p><i class="fa-solid fa-envelope"></i> Email Us</p>
+                                <p><i class="fa-brands fa-linkedin"></i>LinkedIn</p>
+                                <p><i class="fa-solid fa-building"></i> Crunchbase</p>
+                                <p><i class="fa-brands fa-angellist"></i> AngelList</p>
+                            </div>
+                        </div>
+
+                        <p>4030 Wake Forest Road, STE 349
+                            Raleigh, NC, 27609, USA</p>
+
+                        <p>(919) 635-0425</p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4 text-light" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2024 Copyright:
+            <a class="text-reset fw-bold" href="https://mdbootstrap.com/">FebinFelix</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+</body>
+
+</html>
